@@ -1,5 +1,16 @@
 .hero-content{
-	background: url('https://preview.ibb.co/fn6Nvx/jumoplane.jpg');
-	background-repeat: no-repeat;
+    background-image: url("\..\..\assets\images\jumboplane.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    margin-left: -1rem;
+    margin-right: -rem;
+    margin-top: -2rem;
+}
+h1{
+    padding-top: 1rem;
+	padding-left: 1rem;
 }
