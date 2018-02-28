@@ -1,0 +1,34 @@
+.footer-content{
+    background-color: #002538;
+    margin-left: -1rem;
+    margin-right:-1rem;
+    margin-bottom: -2rem;
+    padding: 5px;
+}
+.contact{
+    padding-left: 1rem;
+    background-color: #C92100;
+    margin-bottom:-1rem;
+    margin-left:-1rem;
+    margin-right:-1rem;
+}
+.handle{
+    padding-left: 1rem;
+    background-color: #F2F2F2;
+    margin-bottom:-1rem;
+    margin-left:-1rem;
+    margin-right:-1rem;
+}
+.credit{
+    padding-left: 1rem;
+    background-color: #004D8A;
+    margin-bottom:-1rem;
+    margin-left:-1rem;
+    margin-right:-1rem;
+}
+p{
+    color: #F2F7FA;
+}
+.handle p{
+    color: #25333D;
+}

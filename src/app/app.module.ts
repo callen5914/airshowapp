@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { CardboxComponent } from './cardbox/cardbox.component';
 import { BlogComponent } from './blog/blog.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { BlogComponent } from './blog/blog.component';
     NavbarComponent,
     JumbotronComponent,
     CardboxComponent,
-    BlogComponent
+    BlogComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
