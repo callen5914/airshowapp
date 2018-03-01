@@ -1,3 +1,28 @@
-<p>
-  faq works!
-</p>
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <h2>Frequently Asked Questions</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col col-md-8 offset-md-2">
+
+    <clr-tree-node>
+      Where is my car?
+      <ng-template clrIfExpanded>
+        <clr-tree-node>
+          It's where you left it.
+        </clr-tree-node>
+      </ng-template>
+    </clr-tree-node>
+
+    <clr-tree-node>
+      Where am I?
+      <ng-template clrIfExpanded>
+        <clr-tree-node>
+          There you are.
+        </clr-tree-node>
+      </ng-template>
+    </clr-tree-node>
+    
+  </div>
+</div>
