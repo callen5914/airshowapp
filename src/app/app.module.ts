@@ -11,6 +11,7 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { CardboxComponent } from './cardbox/cardbox.component';
 import { BlogComponent } from './blog/blog.component';
 import { HomeComponent } from './home/home.component';
+import { FaqComponent } from './faq/faq.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HomeComponent } from './home/home.component';
     JumbotronComponent,
     CardboxComponent,
     BlogComponent,
-    HomeComponent
+    HomeComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
