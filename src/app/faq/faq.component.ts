@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { RouterLinkActive } from '@angular/router';
 @Component({
   selector: 'app-faq',
   templateUrl: './faq.component.html',

@@ -1,11 +1,11 @@
 <div class="faq-content">
-  <div class="row">
+  <div class="row flex-items-md-center">
     <div class="col-sm-12 text-center">
       <h2>Frequently Asked Questions</h2>
     </div>
   </div>
-  <div class="row">
-    <div class="col col-md-8 offset-md-2">
+  <div class="row flex-items-md-center">
+    <div class="col col-md-8">
 
       <clr-tree-node>
         When/Where is the Frontiers in Flight Airshow Happening?
@@ -29,7 +29,11 @@
           Who will be there?
           <ng-template clrIfExpanded>
             <clr-tree-node>
-              Brief sponsor and preformer info w/ links
+                <p>A growing list of perfomers is on the performer
+                <a routerLink="performers" routerLinkActive="active">page</a>.
+                Unfortunately, the sequence 
+                is not solidified until the morning of the Air Show to allow for security, safety, weather and 
+                operational concerns.</p>
             </clr-tree-node>
           </ng-template>
         </clr-tree-node>
