@@ -16,19 +16,19 @@ import { BlogComponent } from './home/blog/blog.component';
 
 import { FaqComponent } from './faq/faq.component';
 
-import { PreformersComponent } from './preformers/preformers.component';
-import { RedlineComponent } from './preformers/redline/redline.component';
-import { BrianCorrellComponent } from './preformers/brian-correll/brian-correll.component';
-import { ScottFrancisComponent } from './preformers/scott-francis/scott-francis.component';
-import { SmokeAndThunderComponent } from './preformers/smoke-and-thunder/smoke-and-thunder.component';
-import { Tora3Component } from './preformers/tora3/tora3.component';
-import { FighterJetIncComponent } from './preformers/fighter-jet-inc/fighter-jet-inc.component';
-import { VampireAirComponent } from './preformers/vampire-air/vampire-air.component';
-import { GregSheltonAirComponent } from './preformers/greg-shelton-air/greg-shelton-air.component';
-import { KentPieschAirComponent } from './preformers/kent-piesch-air/kent-piesch-air.component';
-import { AceMakerAirComponent } from './preformers/ace-maker-air/ace-maker-air.component';
-import { DanBuchannanComponent } from './preformers/dan-buchannan/dan-buchannan.component';
-import { DocComponent } from './preformers/doc/doc.component';
+import { performersComponent } from './performers/performers.component';
+import { RedlineComponent } from './performers/redline/redline.component';
+import { BrianCorrellComponent } from './performers/brian-correll/brian-correll.component';
+import { ScottFrancisComponent } from './performers/scott-francis/scott-francis.component';
+import { SmokeAndThunderComponent } from './performers/smoke-and-thunder/smoke-and-thunder.component';
+import { Tora3Component } from './performers/tora3/tora3.component';
+import { FighterJetIncComponent } from './performers/fighter-jet-inc/fighter-jet-inc.component';
+import { VampireAirComponent } from './performers/vampire-air/vampire-air.component';
+import { GregSheltonAirComponent } from './performers/greg-shelton-air/greg-shelton-air.component';
+import { KentPieschAirComponent } from './performers/kent-piesch-air/kent-piesch-air.component';
+import { AceMakerAirComponent } from './performers/ace-maker-air/ace-maker-air.component';
+import { DanBuchannanComponent } from './performers/dan-buchannan/dan-buchannan.component';
+import { DocComponent } from './performers/doc/doc.component';
 
 import { GalleryComponent } from './gallery/gallery.component';
 
@@ -47,7 +47,7 @@ import { FormComponent } from './connect/form/form.component';
     HomeComponent,
     FooterComponent,
     FaqComponent,
-    PreformersComponent,
+    performersComponent,
     GalleryComponent,
     SponsorsComponent,
     ConnectComponent,

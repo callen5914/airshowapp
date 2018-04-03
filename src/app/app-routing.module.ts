@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { FaqComponent } from './faq/faq.component';
-import { PreformersComponent} from './preformers/preformers.component';
+import { performersComponent} from './performers/performers.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { ConnectComponent } from './connect/connect.component';
@@ -15,7 +15,7 @@ const routes: Routes = [
     },
     {
         path:'performers',
-        component:PreformersComponent
+        component:performersComponent
     },
     {
         path: 'faq',
