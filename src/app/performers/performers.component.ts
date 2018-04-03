@@ -11,5 +11,4 @@ export class performersComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

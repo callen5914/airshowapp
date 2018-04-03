@@ -29,6 +29,9 @@ import { KentPieschAirComponent } from './performers/kent-piesch-air/kent-piesch
 import { AceMakerAirComponent } from './performers/ace-maker-air/ace-maker-air.component';
 import { DanBuchannanComponent } from './performers/dan-buchannan/dan-buchannan.component';
 import { DocComponent } from './performers/doc/doc.component';
+import { C17demoComponent } from './performers/c17demo/c17demo.component';
+import { B1FlybyComponent } from './performers/b1-flyby/b1-flyby.component';
+import { GoldenknightsComponent } from './performers/goldenknights/goldenknights.component';
 
 import { GalleryComponent } from './gallery/gallery.component';
 
@@ -36,6 +39,9 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 
 import { ConnectComponent } from './connect/connect.component';
 import { FormComponent } from './connect/form/form.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -65,6 +71,9 @@ import { FormComponent } from './connect/form/form.component';
     AceMakerAirComponent,
     DanBuchannanComponent,
     DocComponent,
+    C17demoComponent,
+    B1FlybyComponent,
+    GoldenknightsComponent,
     
   ],
   imports: [
