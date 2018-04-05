@@ -1,39 +1,146 @@
 <div class="footer-content">
   <div class="row">
-    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-        <a href="connect"> 
-          <div class="contact">
-           <p>Contact Us</p>
-          </div>
-      </a>
-    </div>
-
-    
-    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-      <div class="handle">
-        <span class="icon">
-          <img src = "../../assets/icons/fb_icon.png" height="32" width="32">
-        </span>
-        <span class="icon">
-          <img src = "../../assets/icons/twitter_icon.png" height="32" width="32">
-        </span>
-        <span class="icon">
-          <img src = "../../assets/icons/git_icon.png" height="32" width="32">
-        </span>
-        <span class="icon">
-          <img src = "../../assets/icons/tumblr_icon.png" height="32" width="32">
-        </span>
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+        <div class="contacttabs">
+          <clr-tabs>
+              <clr-tab>
+                <button clrTabLink id="marketing" ><p>22d FSS Marketing</p></button>
+                <clr-tab-content id="marketingContent" *clrIfActive="true">
+                    <div class="handle">
+                        <h3 class="title">Frontiers In Flight</h3>
+                        <p class="address">McConnell Air Force Base<br/>
+                           53147 Kansas Street, KS 67221
+                        </p>
+                        <span class="icon">
+                          <a href="...">
+                            <img src = "../../assets/icons/fb_icon.png" height="32" width="32">
+                          </a>
+                        </span>
+                        <span class="icon">
+                          <a href="...">
+                            <img src = "../../assets/icons/twitter_icon.png" height="32" width="32">
+                          </a>
+                        </span>
+                      </div>
+                </clr-tab-content>
+              </clr-tab>
+              <clr-tab>
+                <button clrTabLink><p>Public Affairs</p></button>
+                <clr-tab-content *clrIfActive>
+                  works!
+                </clr-tab-content>
+              </clr-tab>
+              <clr-tab>
+                <button clrTabLink [clrTabLinkInOverflow]="true">Commercial Sponsorship</button>
+                <clr-tab-content *clrIfActive>
+                  works!
+                </clr-tab-content>
+              </clr-tab>
+              <clr-tab>
+                <button clrTabLink [clrTabLinkInOverflow]="true">Private Organizations</button>
+                <clr-tab-content *clrIfActive>
+                  works!
+                </clr-tab-content>
+              </clr-tab>
+              <clr-tab>
+                <button clrTabLink [clrTabLinkInOverflow]="true">Vendor Requests</button>
+                <clr-tab-content *clrIfActive>
+                  works!
+                </clr-tab-content>
+              </clr-tab>
+          </clr-tabs>
+        </div>
       </div>
-    </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+        <a href="Performers"> 
+          <div class="contact">
+           <p>Performers</p>
+          </div>
+        </a>
+
+        <a href="Schedule"> 
+            <div class="contact">
+             <p>Schedule</p>
+            </div>
+        </a>
+
+        <a href="FAQ"> 
+            <div class="contact">
+             <p>FAQ</p>
+            </div>
+        </a>
+
+        <a href="Event Parking"> 
+            <div class="contact">
+             <p>Event Parking</p>
+            </div>
+        </a>
+
+        <a href="Sponsorship Oppertunities"> 
+            <div class="contact">
+             <p>Sponsorship Oppertunities</p>
+            </div>
+        </a>
+      <!--
+       <a href="Gallery"> 
+            <div class="contact">
+             <p>Gallery</p>
+            </div>
+        </a>
+      -->
+        <a href="About"> 
+            <div class="contact">
+             <p>About</p>
+            </div>
+        </a>
+      <!--
+        <a href="Contact"> 
+            <div class="contact">
+             <p>Contact</p>
+            </div>
+        </a>
+      -->
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+        <a href="Map"> 
+          <div class="contact">
+           <p>Map</p>
+          </div>
+        </a>
+
+        <a href="STEM"> 
+            <div class="contact">
+             <p>STEM</p>
+            </div>
+        </a>
+
+        <a href="Accomodations"> 
+            <div class="contact">
+             <p>Accomodations</p>
+            </div>
+        </a>
+
+        <a href="Wichita Area"> 
+            <div class="contact">
+             <p>Wichita Area</p>
+            </div>
+        </a>
+    </div> 
+  </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="iconFIF">
+            <img src="../../assets/images/airshow_logo.png">
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <div class="credit">
           <p>Created by XPX</p>
           <span class="iconXPX"></span>
       </div>
-    </div>
-  </div>
+    </div>    
 </div>
+
 
 
   

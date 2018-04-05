@@ -11,7 +11,8 @@
     align-self: center;
     align-items: center;
     vertical-align: middle;
-    text-align: center;
+    text-align: left;
+    padding-left: 1rem;
 
 }
 .handle{
@@ -19,19 +20,53 @@
     align-self: center;
     align-items: center;
     vertical-align: middle;
-    text-align: center;
+    text-align: left;
+    
 }
 .credit{
+    padding-top: 15px;
     align-content: center;
     align-self: center;
     align-items: center;
     vertical-align: middle;
     text-align: center;
-
+    padding-left: 1rem;
 }
 .icon{
     padding-left: 1rem;
+
 }
+.title{
+    margin-top:15px;
+    margin-bottom: 15px;
+    color: #F2F7FA;
+    padding-left: 1rem;
+}
+.address{
+    text-align: left;
+    padding-left: 1rem;
+    margin-bottom: 15px;
+}
+.iconFIF{
+    padding-top: 30px;
+    text-align: center;
+  
+}
+.contacttabs{
+    margin-left: 1rem;
+    height: 50vh;
+    color: #F2F7FA;
+}
+button p{
+    color: #778A94;
+}
+
+button p:hover{
+    color: #F2F7FA;
+}
+
+
+
 p{
     margin: 0;
     padding: 0;
