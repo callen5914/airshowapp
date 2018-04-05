@@ -1,7 +1,7 @@
 .hero-content{    
     position: relative;
 	margin-top: 0;
-    min-height: 600px;
+    min-height: 70vh;
     width: 100%;
 }
 .hero-content #bgimg{
@@ -11,26 +11,38 @@
     background-size: cover;
     position: absolute;
     width: 110%;
-    min-height: 680px;
+    min-height: 80vh;
     z-index: 1;
     margin-left: -30px;
     margin-right: -150px;
     margin-top: -30px;
-    background-position-y: 70%;
+    background-position-y: 45%;
 }
-.hero-content .hero-cta{    
+.hero-content .hero-logo{    
     position: relative;
     margin-top: 0;
-    min-height: 600px;
+    margin-bottom: 0;
+    min-height: 70hv;
     width: 100%;
     z-index: 2;
 }
 
-.hero-content .hero-cta img{    
-    padding: 60px;
+.hero-content .hero-logo img{    
+    padding-left: 60px;
+    padding-top: 15px;
 }
 
-.hero-content .hero-cta h1{    
+.hero-content h2{
+    position: relative;
+    vertical-align: bottom;
+    align-content: center;
+    text-align: center;
+    color: #002538;
+    font-weight: bold;
+    z-index: 3;
+}
+.hero-content .hero-logo h3{    
     margin-top: 0;
+    margin-bottom: 0;
 }
 
