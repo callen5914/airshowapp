@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { JumbotronComponent } from './home/jumbotron/jumbotron.component';
 import { CardboxComponent } from './home/cardbox/cardbox.component';
 import { BlogComponent } from './home/blog/blog.component';
+import { GuestinfoComponent } from './home/guestinfo/guestinfo.component';
 
 import { FaqComponent } from './faq/faq.component';
 
@@ -39,6 +40,7 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 
 import { ConnectComponent } from './connect/connect.component';
 import { FormComponent } from './connect/form/form.component';
+
 
 
 
@@ -74,6 +76,7 @@ import { FormComponent } from './connect/form/form.component';
     C17demoComponent,
     B1FlybyComponent,
     GoldenknightsComponent,
+    GuestinfoComponent,
     
   ],
   imports: [
