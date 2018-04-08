@@ -13,11 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { JumbotronComponent } from './home/jumbotron/jumbotron.component';
 import { CardboxComponent } from './home/cardbox/cardbox.component';
 import { BlogComponent } from './home/blog/blog.component';
-<<<<<<< HEAD
 import { TimelineComponent } from './home/timeline/timeline.component';
-=======
 import { GuestinfoComponent } from './home/guestinfo/guestinfo.component';
->>>>>>> guestInfo
 
 import { FaqComponent } from './faq/faq.component';
 
@@ -80,11 +77,8 @@ import { FormComponent } from './connect/form/form.component';
     C17demoComponent,
     B1FlybyComponent,
     GoldenknightsComponent,
-<<<<<<< HEAD
     TimelineComponent,
-=======
-    GuestinfoComponent,
->>>>>>> guestInfo
+    GuestinfoComponent
     
   ],
   imports: [
